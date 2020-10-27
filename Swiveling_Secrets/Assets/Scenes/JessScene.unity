@@ -277,6 +277,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 100.00012
       objectReference: {fileID: 0}
+    - target: {fileID: 23848691571729836, guid: fc723164fcb3394489548dfd87d02024,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc723164fcb3394489548dfd87d02024, type: 3}
 --- !u!1 &2095967895
@@ -290,6 +295,8 @@ GameObject:
   - component: {fileID: 2095967896}
   - component: {fileID: 2095967898}
   - component: {fileID: 2095967897}
+  - component: {fileID: 2095967900}
+  - component: {fileID: 2095967899}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -361,3 +368,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!92 &2095967899
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095967895}
+  m_Enabled: 1
+--- !u!124 &2095967900
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095967895}
+  m_Enabled: 1
